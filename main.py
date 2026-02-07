@@ -7,6 +7,8 @@ pages ={
     
     "streamlit": [
         st.Page("streamlit/text.py", title="text"),
+        st.Page("streamlit/media.py", title="media"),
+
     ],
     "AI": [
         st.Page("AI/A.py", title="AI"),  
