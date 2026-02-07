@@ -1,8 +1,12 @@
 import streamlit as st
 
-pages = {
+pages ={
+    "about_me": [
+        st.Page("about_me/자기소개.py", title="자기소개"),
+    ],
+    
     "streamlit": [
-        st.Page("streamlit/S.py", title="STREAMLIT"),
+        st.Page("streamlit/text.py", title="text"),
     ],
     "AI": [
         st.Page("AI/A.py", title="AI"),  
