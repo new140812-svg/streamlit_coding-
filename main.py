@@ -6,7 +6,8 @@ pages ={
     ],
     "python": [
         st.Page("python/for_반복문.py", title="for_반복문"),  
-        st.Page("python/whlie_반복문.py", title="whlie_반복문"),  
+        st.Page("python/whlie_반복문.py", title="whlie_반복문"),
+        st.Page("python/set_자료형.py", title="set_자료형"),  
         ],
     "streamlit": [
         st.Page("streamlit/text.py", title="text"),
