@@ -14,6 +14,9 @@ pages ={
         st.Page("streamlit/media.py", title="media"),
 
     ],
+    "알고리즘": [
+        st.Page("알고리즘/알고리즘이란.py", title="알고리즘이란"),
+    ],
     "AI": [
         st.Page("AI/A.py", title="AI"),  
     ],
