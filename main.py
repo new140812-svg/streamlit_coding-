@@ -1,8 +1,12 @@
 import streamlit as st
 
 pages ={
-    "about_me": [
-        st.Page("about_me/자기소개.py", title="자기소개"),
+    "자기소개 페이지": [
+        st.Page("자기소개 페이지/자기소개.py", title="자기소개 페이지"),
+    ],
+    "게임 실습": [
+        st.Page("게임 실습/Game1.py", title="게임실습 1"),
+        st.Page("게임 실습/Game2.py", title="게임실습 2"),
     ],
     "python": [
         st.Page("python/for_반복문.py", title="for_반복문"),  
